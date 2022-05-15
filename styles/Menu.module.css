@@ -1,0 +1,45 @@
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: "32px";
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 32px 50px 0px 50px;
+  height: 90px;
+  background: white;
+}
+
+.firstContainer {
+  display: flex;
+  align-items: center;
+}
+
+.linksContainer {
+  margin-left: 100px;
+}
+
+.links {
+  padding-left: 35px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.btnCtaCyan {
+  padding: 4px 18px;
+  width: 159px;
+  height: 40px;
+  background-color: var(--color-secundario);
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: auto;
+  vertical-align: middle;
+  line-height: 32px;
+}
