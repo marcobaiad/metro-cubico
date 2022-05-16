@@ -100,7 +100,6 @@
 }
 
 .section {
-  background-color: #f6f6f6;
   width: 100%;
 }
 
@@ -215,14 +214,76 @@
 }
 
 .section-4 {
-  padding: 4em;
-  text-align: center;
-  background-color: #f6f6f6;
-  /* transform: skewY(-5deg); */
+  position: relative;
+  height: 1200px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
 }
 
-.section-4 img {
-  width: 60%;
+.title-section-4 {
+  margin-top: 50px;
+  z-index: 3;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #588b8b;
+}
+
+.steps-section-4 {
+  z-index: 3;
+  width: 370px;
+  position: absolute;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+}
+
+.steps-title-section-4 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: black;
+}
+
+.first-step-section-4 {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.second-step-section-4 {
+  right: 0;
+  z-index: 3;
+  padding-top: 550px;
+}
+
+.third-step-section-4 {
+  bottom: 0;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.fourt-step-section-4 {
+  left: 0;
+  padding-top: 550px;
+  text-align: right;
+}
+
+.img-container-section-4 {
+  background-color: #f7f7f7;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section-5 {
@@ -271,7 +332,7 @@
 }
 
 .section-8 {
-  background: linear-gradient(rgba(248,104,8,1), rgba(230,81,17,1));
+  background: linear-gradient(rgba(248, 104, 8, 1), rgba(230, 81, 17, 1));
   display: flex;
   flex-flow: row-reverse wrap;
   width: 100%;
@@ -283,13 +344,11 @@
   text-align: left;
 }
 
-
-footer{
+footer {
   width: 100%;
   height: 396px;
-  background: rgba(87,87,87,1);        
+  background: rgba(87, 87, 87, 1);
 }
-
 
 @media screen and (max-width: 1200px) {
   .section-1 .left {
