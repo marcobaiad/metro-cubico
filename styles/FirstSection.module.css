@@ -1,9 +1,14 @@
 .FirstSectionContainer {
-  background-image: url("../public/header.jpg");
+  background-image: url("../public/header-image.png");
   background-repeat: no-repeat;
+  background-size: contain;
   height: 700px;
   padding-left: 83px;
   padding-top: 121px;
+}
+
+.textSection {
+  margin-bottom: 32px;
 }
 
 .btnCtaOrange {
@@ -28,5 +33,5 @@
 
 .title2 {
   color: var(--color-secundario);
-  font-size: 50px;
+  font-size: 60px;
 }

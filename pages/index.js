@@ -1,6 +1,7 @@
 import Head from "next/head"
 import FirstSection from "../components/Header/FirstSection"
 import MenuComponent from "../components/Header/MenuComponent"
+import PigSection from "../components/PigSection"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <MenuComponent />
         <FirstSection />
       </header>
+      <PigSection />
     </>
   )
 }
