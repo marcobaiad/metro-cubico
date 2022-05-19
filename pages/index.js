@@ -3,6 +3,7 @@ import FirstSection from "../components/Header/FirstSection"
 import MenuComponent from "../components/Header/MenuComponent"
 import PigSection from "../components/PigSection"
 import ProposalSection from "../components/ProposalSection"
+import StepsSection from "../components/StepsSection"
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </header>
       <PigSection />
       <ProposalSection />
+      <StepsSection />
     </>
   )
 }
