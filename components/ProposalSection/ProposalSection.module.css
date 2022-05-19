@@ -1,0 +1,57 @@
+.proposal-section {
+  background-color: white;
+  position: relative;
+}
+
+.proposal-section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #000000;
+}
+
+.proposal-section-subtitle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.proposal-section-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  color: #4a4a4a;
+}
+
+.men-text-wrapper {
+  padding-left: 757px;
+  padding-top: 131px;
+}
+
+.women-text-wrapper {
+  padding-left: 93px;
+  padding-top: 362px;
+  width: 50%;
+}
+
+.img-wrapper {
+  position: absolute;
+}
+
+.img-men {
+  width: 863px;
+  height: 785px;
+}
+
+.img-women {
+  width: 961px;
+  height: 873px;
+  margin-top: 181px;
+  right: 0;
+  max-width: 50%;
+}
