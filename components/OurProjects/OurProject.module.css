@@ -1,0 +1,52 @@
+.section-title {
+  color: var(--text-primary);
+  margin-top: 60px;
+  text-align: center;
+}
+
+.brand-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.together-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.together-img-wrapper {
+  width: 798px;
+  height: 781px;
+}
+
+.together-text-wrapper {
+  max-width: 50%;
+  padding-right: 67px;
+}
+
+.together-subtitle {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.together-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #4a4a4a;
+}
+
+.together-text-bold {
+  font-weight: 700;
+}
+
+.button-care {
+  background-color: var(--color-principal);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
