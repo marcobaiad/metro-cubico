@@ -30,12 +30,11 @@
   line-height: 24px;
 }
 
-.btnCtaCyan {
+.btn-cyan {
   padding: 4px 18px;
   width: 159px;
   height: 40px;
-  background-color: var(--color-secundario);
-  color: white;
+  background-color: var(--text-primary);
   border-radius: 5px;
   font-size: 16px;
   font-weight: 700;

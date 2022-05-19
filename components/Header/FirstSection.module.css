@@ -1,7 +1,7 @@
 .FirstSectionContainer {
-  background-image: url("../public/header-image.png");
+  background-image: url("../../public/header-image.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 700px;
   padding-left: 83px;
   padding-top: 121px;
@@ -32,6 +32,6 @@
 }
 
 .title2 {
-  color: var(--color-secundario);
+  color: var(--text-primary);
   font-size: 60px;
 }

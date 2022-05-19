@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "../../styles/FirstSection.module.css"
+import styles from "./FirstSection.module.css"
 
 const FirstSection = () => {
   return (

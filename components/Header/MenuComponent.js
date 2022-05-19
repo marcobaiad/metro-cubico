@@ -1,5 +1,5 @@
 import Link from "next/link"
-import styles from "../../styles/Menu.module.css"
+import styles from "./Menu.module.css"
 
 const linksList = [
   {
@@ -33,7 +33,11 @@ const MenuComponent = () => {
           ))}
         </div>
       </div>
-      <a className={styles.btnCtaCyan}>REGISTRARME</a>
+      <div className={styles["btn-cyan"]}>
+        <Link href="/registro">
+          <a style={{ color: "white" }}>REGISTRARME</a>
+        </Link>
+      </div>
     </nav>
   )
 }
