@@ -1,4 +1,5 @@
 import Head from "next/head"
+import BannerSection from "../components/BannerSection"
 import FirstSection from "../components/Header/FirstSection"
 import MenuComponent from "../components/Header/MenuComponent"
 import PigSection from "../components/PigSection"
@@ -18,6 +19,7 @@ export default function Home() {
       <PigSection />
       <ProposalSection />
       <StepsSection />
+      <BannerSection />
     </>
   )
 }

@@ -59,6 +59,7 @@
 
 .second-step-text {
   transform: translate(35rem, -10rem);
+  width: 320px !important;
 }
 
 .third-step-text {

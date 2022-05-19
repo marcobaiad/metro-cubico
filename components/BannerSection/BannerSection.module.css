@@ -1,0 +1,17 @@
+.banner-wrapper {
+  height: 218px;
+  background: linear-gradient(88.71deg, #f96908 2.08%, #e75211 92.91%);
+  padding: 48px 0px;
+  text-align: center;
+}
+
+.banner-text {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.banner-text span {
+  font-weight: 400;
+}

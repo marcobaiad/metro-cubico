@@ -31,6 +31,7 @@
 .men-text-wrapper {
   padding-left: 757px;
   padding-top: 131px;
+  padding-right: 67px;
 }
 
 .women-text-wrapper {
@@ -48,11 +49,33 @@
   height: 785px;
 }
 
+.img-men img {
+  object-position: -50px !important;
+}
+
 .img-women {
   width: 961px;
-  height: 873px;
+  height: 773px;
   margin-top: 181px;
   right: 0;
   max-width: 50%;
   z-index: 2;
+}
+
+.care-button {
+  background-color: #ef792a;
+  width: 194.77px;
+  height: 49.2px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.care-button a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
 }

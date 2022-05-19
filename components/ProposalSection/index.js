@@ -2,6 +2,7 @@ import Image from "next/image"
 import menIMG from "../../public/men-celebrating.png"
 import womenIMG from "../../public/happy-women.png"
 import styles from "./ProposalSection.module.css"
+import Link from "next/link"
 
 const ProposalSection = () => {
   return (
@@ -21,6 +22,11 @@ const ProposalSection = () => {
           inmobiliario con pequeños montos para que puedas ir metro a metro
           creciendo y proyectando el sueño de tu casa propia.
         </p>
+        <div className={styles["care-button"]}>
+          <Link href={"#"}>
+            <a>¡ME INTERESA! </a>
+          </Link>
+        </div>
       </div>
       <div
         style={{
@@ -37,9 +43,14 @@ const ProposalSection = () => {
             ingresando con un monto minimo que te permite comprar un metro
             cuadrado cada vez que quieras, resguardando tus ahorros en ladrillo.
           </p>
+          <div className={styles["care-button"]}>
+            <Link href={"#"}>
+              <a>¡ME INTERESA!</a>
+            </Link>
+          </div>
         </div>
         <div className={`${styles["img-wrapper"]} ${styles["img-women"]}`}>
-          <Image src={womenIMG} alt="Nuestro legado" objectFit="contain" />
+          <Image src={womenIMG} alt="Nuestro legado" layout="fill" />
         </div>
       </div>
     </section>
