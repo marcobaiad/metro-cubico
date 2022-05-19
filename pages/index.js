@@ -1,5 +1,6 @@
 import Head from "next/head"
 import BannerSection from "../components/BannerSection"
+import FormSection from "../components/FormSection"
 import FirstSection from "../components/Header/FirstSection"
 import MenuComponent from "../components/Header/MenuComponent"
 import OurProjects from "../components/OurProjects"
@@ -22,6 +23,7 @@ export default function Home() {
       <StepsSection />
       <BannerSection />
       <OurProjects />
+      <FormSection />
     </>
   )
 }
