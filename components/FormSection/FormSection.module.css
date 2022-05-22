@@ -26,13 +26,13 @@
 .form-section-wrapper form {
   display: flex;
   flex-direction: column;
+  row-gap: 17px;
 }
 
 .form-section-wrapper form * {
   background: #ff8d53;
   outline: none;
   border: 0;
-  margin-bottom: 17px;
   width: 543.93px;
 }
 

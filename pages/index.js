@@ -10,20 +10,32 @@ import StepsSection from "../components/StepsSection"
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Home</title>
-      </Head>
-      <header>
-        <MenuComponent />
-        <FirstSection />
-      </header>
-      <PigSection />
-      <ProposalSection />
-      <StepsSection />
-      <BannerSection />
-      <OurProjects />
-      <FormSection />
-    </>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: "1400px",
+          width: "100%",
+        }}
+      >
+        <Head>
+          <title>Home</title>
+        </Head>
+        <header>
+          <MenuComponent />
+          <FirstSection />
+        </header>
+        <PigSection />
+        <ProposalSection />
+        <StepsSection />
+        <BannerSection />
+        <OurProjects />
+        <FormSection />
+      </div>
+    </div>
   )
 }
