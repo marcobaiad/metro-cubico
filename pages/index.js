@@ -1,5 +1,6 @@
 import Head from "next/head"
 import BannerSection from "../components/BannerSection"
+import Footer from "../components/Footer"
 import FormSection from "../components/FormSection"
 import FirstSection from "../components/Header/FirstSection"
 import MenuComponent from "../components/Header/MenuComponent"
@@ -35,6 +36,7 @@ export default function Home() {
         <BannerSection />
         <OurProjects />
         <FormSection />
+        <Footer />
       </div>
     </div>
   )
